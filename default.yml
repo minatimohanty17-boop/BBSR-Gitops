@@ -12,9 +12,10 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 org_settings:
-activities_webhook:
-enable_activities_webhook: true
-destination_url:https://webhook.site/153339da-10f5-444e-8b06-2c36004694cb
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/153339da-10f5-444e-8b06-2c36004694cb
 
   org_info:
     ###########################################################
