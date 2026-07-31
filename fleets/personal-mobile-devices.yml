@@ -73,6 +73,10 @@ controls:
 # Apps to make available from the Apple App Store or Google Play
 ###########################################################
 software:
+  fleet_maintained_apps:
+    - slug: 7-zip/windows
+      self_service: true
+      
   app_store_apps:
     ###########################################################
     # iOS apps
