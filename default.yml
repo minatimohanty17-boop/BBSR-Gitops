@@ -12,6 +12,10 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 org_settings:
+activities_webhook:
+enable_activities_webhook: true
+destination_url:https://webhook.site/153339da-10f5-444e-8b06-2c36004694cb
+
   org_info:
     ###########################################################
     # The name of your organization is displayed to end users
@@ -21,7 +25,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: minati
+    org_name: Ayush MMohanty
 
   server_settings:
     ###########################################################
